@@ -1,0 +1,129 @@
+<!-- <apx-chart #chart [series]="form.value.series"
+           [xaxis]="{ categories: form.value.xaxis }"
+           [chart]="{
+              height: form.value.height,
+              type: form.value.type,
+              zoom: {
+                enabled: false
+              },
+              shadow: {
+                    enabled: true,
+                    color: '#000',
+                    top: 18,
+                    left: 7,
+                    blur: 10,
+                    opacity: 1
+                }}"
+
+  [grid]="{
+    row: {
+      colors: ['#f3f3f3', 'transparent'],
+      opacity: 0.5
+    }
+  }"
+   [title]="{ text: form.value.title }"
+           [stroke]="{curve: 'straight'}" [dataLabels]="{enabled: false}"
+           [autoUpdateSeries]="false"></apx-chart> -->
+
+<!-- <apx-chart #chart [series]="form.value.series"
+           [xaxis]="{ categories: form.value.xaxis }"
+           [plotOptions]="{bar:{horizontal: true}}"
+           [chart]="{
+              height: form.value.height,
+              type: form.value.type,
+              zoom: {
+                enabled: false
+              },
+              shadow: {
+                    enabled: true,
+                    color: '#000',
+                    top: 18,
+                    left: 7,
+                    blur: 10,
+                    opacity: 1
+                }}"
+
+  [grid]="{
+    row: {
+      colors: ['#f3f3f3', 'transparent'],
+      opacity: 0.5
+    }
+  }"
+   [title]="{ text: form.value.title }"
+           [stroke]="{curve: 'straight'}" [dataLabels]="{enabled: false}"
+           [autoUpdateSeries]="false"></apx-chart> -->
+
+<h1>angular-apexcharts-area</h1><hr/>
+<apx-chart
+    [chart]="chartData.chart"
+    [series]="chartData.series"
+    #chart
+></apx-chart>
+
+
+<h1>angular-apexcharts-line</h1><hr/>
+<apx-chart
+    [chart]="chartData1.chart"
+    [series]="chartData1.series"
+    [xaxis]="chartData1.xaxis"
+    #chart1
+></apx-chart>
+
+<h1>angular-apexcharts-bar</h1><hr/>
+<apx-chart
+    [chart]="chartData2.chart"
+    [series]="chartData2.series"
+    [xaxis]="chartData2.xaxis"
+    #chart2
+></apx-chart>
+
+<h1>angular-apexcharts-Column</h1><hr/>
+<apx-chart
+    [chart]="chartData3.chart"
+    [series]="chartData3.series"
+    [xaxis]="chartData3.xaxis"
+    #chart3
+></apx-chart>
+
+<h1>angular-apexcharts-Timeline</h1><hr/>
+<apx-chart
+    [chart]="chartData4.chart"
+    [series]="chartData4.series"
+    [xaxis]="chartData4.xaxis"
+    #chart4
+></apx-chart>
+
+<h1>angular-apexcharts-Line-labels</h1><hr/>
+<apx-chart
+    [chart]="chartData5.chart"
+    [series]="chartData5.series"
+    [xaxis]="chartData5.xaxis"
+    #chart5
+></apx-chart>
+
+<h1>angular-apexcharts-Donut-chart</h1><hr/>
+<apx-chart
+    [chart]="chartData6.chart"
+    [series]="chartData6.series"
+    [xaxis]="chartData6.xaxis"
+    #chart6
+></apx-chart>
+
+<h1>angular-apexcharts-Line-base</h1><hr/>
+<apx-chart
+    [chart]="chartData7.chart"
+    [series]="chartData7.series"
+    [xaxis]="chartData7.xaxis"
+    #chart7
+></apx-chart>
+
+<h1>angular-apexcharts-2axis</h1><hr/>
+<apx-chart
+    [chart]="chartData8.chart"
+    [series]="chartData8.series"
+    [xaxis]="chartData8.xaxis"
+    #chart8
+></apx-chart>
+
+
+
